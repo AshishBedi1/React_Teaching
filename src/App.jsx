@@ -1,4 +1,5 @@
 import FeedbackForm from "./components/FeedbackForm";
+import List from "./components/listAndKey";
 import ThemeToggle from "./components/Toggle";
 import UseEffect from "./components/UseEffect";
 
@@ -9,7 +10,8 @@ const App = () => {
       <FeedbackForm /> */}
 
       {/* <UseEffect />  */}
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
+      <List />
     </div>      
   )
 }
