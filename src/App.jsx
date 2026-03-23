@@ -3,11 +3,12 @@ import FeedbackForm from "./components/FeedbackForm";
 import List from "./components/listAndKey";
 import ThemeToggle from "./components/Toggle";
 import UseEffect from "./components/UseEffect";
+import UseReff from "./components/UseRef";
 
 const App = () => {
   return(
+    <div>
     <BrowserRouter>
-
     {/* navigation */}
     <nav style={{marginBottom:"20px"}}>
         <Link to="/">List</Link> | {" "}
@@ -22,6 +23,10 @@ const App = () => {
        <Route path="/toggle" element={<ThemeToggle />} />
     </Routes>
     </BrowserRouter>
+
+    <UseReff/>
+
+     </div>
   )
 }
 export default App;
