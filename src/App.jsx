@@ -4,6 +4,8 @@ import List from "./components/listAndKey";
 import ThemeToggle from "./components/Toggle";
 import UseEffect from "./components/UseEffect";
 import UseReff from "./components/UseRef";
+import Usememo from "./components/Usememo";
+
 
 const App = () => {
   return(
@@ -25,6 +27,7 @@ const App = () => {
     </BrowserRouter>
 
     <UseReff/>
+    <Usememo />
 
      </div>
   )
