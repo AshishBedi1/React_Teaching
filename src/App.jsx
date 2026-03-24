@@ -5,6 +5,7 @@ import ThemeToggle from "./components/Toggle";
 import UseEffect from "./components/UseEffect";
 import UseReff from "./components/UseRef";
 import Usememo from "./components/Usememo";
+import Reactmemo from "./components/Reactmemo";
 
 
 const App = () => {
@@ -26,8 +27,9 @@ const App = () => {
     </Routes>
     </BrowserRouter>
 
-    <UseReff/>
-    <Usememo />
+    {/* <UseReff/>
+    <Usememo /> */}
+    <Reactmemo />
 
      </div>
   )
